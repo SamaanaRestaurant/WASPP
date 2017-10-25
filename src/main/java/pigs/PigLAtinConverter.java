@@ -1,3 +1,4 @@
+package main.java.pigs;
 
 public class PigLAtinConverter {
 	
