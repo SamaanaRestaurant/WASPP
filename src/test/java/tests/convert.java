@@ -12,6 +12,7 @@ public class convert {
 	public void test() {
 		PigLAtinConverter pig=new PigLAtinConverter();
 		String s=pig.convertWord("donia");
+		
 		assertEquals("oniaday", s);
 	}
 
