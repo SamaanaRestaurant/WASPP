@@ -1,6 +1,6 @@
 # wasp-software-course
 Code for Assignment 2 in the WASP software engineering and cloud computing course.
-Kristoffer Bergman and Per Boström
+
 
 # wasp-software-course
 
@@ -14,9 +14,6 @@ This repository contains code for Assignment 2 in the WASP software engineering 
 
 # Installation
 To run this project, you need to have Java and Ant installed.
-Do
-  * ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"``` to install homebrew package manager
-  * ```brew install ant``` to install ant
 
 # Build
 Do
@@ -27,4 +24,4 @@ Do
 
 # Run
 Run the generated jar file by:
-  *  ```java -jar Product.jar```
+  *  ```java -jar MyPigProduct.jar```
