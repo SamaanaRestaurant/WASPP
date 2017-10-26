@@ -1,6 +1,6 @@
 package test.java.tests;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -10,9 +10,9 @@ public class convert {
 
 	@Test
 	public void test() {
-		PigLAtinConverter pig=new PigLAtinConverter();
-		String s=pig.convertWord("donia");
-		
+		PigLAtinConverter pig = new PigLAtinConverter();
+		String s = pig.convertWord("donia");
+
 		assertEquals("oniaday", s);
 	}
 
